@@ -54,3 +54,13 @@ source faceenv/bin/activate
 pip install -r requirements.txt
 ```
 # Usage
+```
+streamlit run app.py
+```
+Once the app launches:
+
+1. Log in as admin to begin recognition
+
+2. Allow access to the webcam when prompted
+
+3. Recognized users will be automatically marked in attendance.csv
